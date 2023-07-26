@@ -6,7 +6,7 @@ import { faqs } from "@/constants";
 const Faq = () => {
   return (
     <section className="flex flex-col items-center justify-center w-full h-full py-4 space-y-5 md:py-6 lg:py-10 px-14 gradient-product">
-      <div className="flex flex-col items-center justify-center w-full h-full max-w-[1440px]">
+      <div className="flex flex-col items-center justify-center w-full h-full max-w-[1440px] space-y-10">
         <h2 className="font-lato font-bold text-3xl md:text-4xl lg:text-[48px] text-shadow text-center">
           Pertanyaan yang Sering Diajukan
         </h2>
@@ -26,11 +26,10 @@ const Faq = () => {
             <div className="collapse-content">
               <p className="text-base font-normal font-lato md:text-lg">
                 Bank yang sudah berkerja sama dengan Karya Cipta Sakinah adalah{" "}
-                <span className="font-bold">BCA</span>,{" "}
-                <span className="font-bold">Mandiri</span>,{" "}
                 <span className="font-bold">BNI</span>,{" "}
-                <span className="font-bold">CIMB Niaga</span>, dan{" "}
-                <span className="font-bold">DANAMON</span>.
+                <span className="font-bold">BSI</span>,{" "}
+                <span className="font-bold">BTN Syariah</span>, dan{" "}
+                <span className="font-bold">BRI</span>.
               </p>
             </div>
 

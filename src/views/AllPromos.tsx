@@ -17,8 +17,11 @@ const AllPromos = ({ promos }: PromosProps) => {
   return (
     <section className="flex flex-col items-center justify-center w-full h-full py-20 bg-white text-shadow">
       <div className="flex flex-col items-center justify-center w-full h-full max-w-[1440px] px-14 gap-10 bg-transparent">
+          {promos.length === 0 && (
+            <p className="w-full text-center font-lato font-medium text-[24px]">Mohon maaf untuk saat ini belum ada promo tersedia</p>
+          )}
         <div className="grid w-full h-full gap-10 auto-rows-auto md:grid-cols-2 lg:grid-cols-3">
-          {promos.map((promo, idx) => (
+          {promos.length !== 0 && promos.map((promo, idx) => (
             <PromoCard
               key={idx}
               {...promo}

@@ -11,7 +11,7 @@ const Denah = () => {
         <div className="flex flex-col w-full h-full gap-10 md:flex-row">
           <div className="relative items-center justify-center w-full h-full unset-img">
             <Image
-              src={"/images/model.jpg"}
+              src={"/images/Model2.jpg"}
               fill={true}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               alt="Rumah Sakinah Residence"
@@ -21,7 +21,7 @@ const Denah = () => {
 
           <div className="relative items-center justify-center w-full h-full unset-img">
             <Image
-              src={"/images/denah.jpg"}
+              src={"/images/Denah.png"}
               fill={true}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               alt="Denah Sakinah Residence"
