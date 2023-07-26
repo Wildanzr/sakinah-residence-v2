@@ -59,7 +59,7 @@ export const links = [
 ]
 
 export const bannerText = {
-    owner: 'Karya Cipta Sakinah',
+    owner: 'Karya Cipta Sakinah Newwww',
     title: 'Menikmati Asri dan Indahnya Hunian yang Harmonis',
     buttonText: 'Jelajahi Sekarang'
 }
