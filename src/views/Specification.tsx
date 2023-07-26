@@ -33,14 +33,14 @@ const Specification = ({ name, brochure }: SpecificationProps) => {
             {name}
           </h1>
           <p className="text-lg font-normal font-lato md:text-xl lg:text-2xl text-grey">
-            Selamat datang di &quot;Sakinah Residence&quot; - perumahan yang
+            Selamat datang di &quot;{name}&quot; - perumahan yang
             dirancang dengan spesifikasi luar biasa untuk memenuhi segala
             kebutuhan dan gaya hidup modern Anda. Kami bangga mempersembahkan
             rumah-rumah berkualitas tinggi yang menawarkan kenyamanan,
             fungsionalitas, dan keindahan yang tak tertandingi.
           </p>
           <p className="text-lg font-normal font-lato md:text-xl lg:text-2xl text-grey">
-            Setiap rumah di Sakinah Residence didesain dengan teliti untuk
+            Setiap rumah di {name} didesain dengan teliti untuk
             memberikan ruang yang luas dan fungsional bagi Anda dan keluarga.
             Tersedia berbagai pilihan tata letak yang cerdas, termasuk ruang
             keluarga yang nyaman, kamar tidur yang luas, ruang kerja yang

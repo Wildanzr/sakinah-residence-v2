@@ -131,7 +131,7 @@ export const faqs: QnaProps[] = [
     },
     {
         question: "Berapa harga rumah di Karya Cipta Sakinah Paiton?",
-        answer: "Harga rumah di Karya Cipta Sakinah sangat beragam tergantung tipe unit rumah yang mau dibelikan. Untuk informasi selanjutnya Anda dapat menghubungi kami via chat marketing setiap hari selama 24 jam. Anda juga bisa klik ke halaman ini."
+        answer: "Harga rumah di Karya Cipta Sakinah sangat beragam tergantung tipe unit rumah yang diinginkan. Untuk informasi selanjutnya Anda dapat menghubungi kami via chat marketing setiap hari selama 24 jam. Anda juga bisa klik ke halaman ini."
     },
     {
         question: "Metode pembayaran yang bisa dilakukan di Karya Cipta Sakinah?",
